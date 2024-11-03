@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>ServerAddresses</key>
+				<array>
+					<string>114.114.114.114</string>
+				</array>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>设置你的移动端苹果设备 DNS 为 114.114.114.114</string>
+			<key>PayloadDisplayName</key>
+			<string>DNS for Apple</string>
+			<key>PayloadIdentifier</key>
+			<string>cc.custom.dnsSettings.managed</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>12345678-1234-1234-1234-123456789abc</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>DNS for Apple</string>
+	<key>PayloadDisplayName</key>
+	<string>Apple DNS</string>
+	<key>PayloadIdentifier</key>
+	<string>cc.custom.dns</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>12345678-1234-1234-1234-123456789abc</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
