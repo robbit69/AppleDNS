@@ -6,12 +6,16 @@
 	<array>
 		<dict>
 			<key>DNSSettings</key>
-			<dict>
-				<key>ServerAddresses</key>
-				<array>
-					<string>114.114.114.114</string>
-				</array>
-			</dict>
+                        <dict>
+                                <key>DNSProtocol</key>
+                                <string>TLS</string>
+                                <key>ServerAddresses</key>
+                                <array>
+                                        <string>114.114.114.114</string>
+                                </array>
+                                <key>ServerName</key>
+                                <string>dot.114dns.com</string>
+                        </dict>
 			<key>PayloadDescription</key>
 			<string>设置你的移动端苹果设备 DNS 为 114.114.114.114</string>
 			<key>PayloadDisplayName</key>
@@ -20,8 +24,8 @@
 			<string>cc.custom.dnsSettings.managed</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
-			<key>PayloadUUID</key>
-			<string>12345678-1234-1234-1234-123456789abc</string>
+                        <key>PayloadUUID</key>
+                        <string>25E9EF21-965A-4B4C-8F07-630BFBAD9C8E</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
@@ -34,8 +38,8 @@
 	<string>cc.custom.dns</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
-	<key>PayloadUUID</key>
-	<string>12345678-1234-1234-1234-123456789abc</string>
+        <key>PayloadUUID</key>
+        <string>F8A47B9E-18F4-4C3E-A0F5-A9025289A7A6</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
