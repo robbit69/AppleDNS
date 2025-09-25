@@ -8,6 +8,8 @@
 
 114 的 DNS 可以解决很多解析错误的问题，如果需要其他地址的 DNS 可以 fork 一下然后修改对应字段即可，安装方式同上。
 
-另一个更好的方法是直接使用 surger 来按需指定 DNS，更方便更灵活，有需要可以自行谷歌。
+另一个更好的方法是直接使用 Surge 来按需指定 DNS，更方便更灵活，有需要可以自行谷歌。
+
+该描述文件启用了基于 TLS 的加密 DNS（DoT），服务器名称设定为 dot.114dns.com，对应的服务器地址为 114.114.114.114，与上文描述保持一致。
 
 https://raw.githubusercontent.com/robbit69/AppleDNS/refs/heads/master/AppleDNS-DoT.mobileconfig
